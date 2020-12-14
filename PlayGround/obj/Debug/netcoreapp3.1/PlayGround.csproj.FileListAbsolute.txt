@@ -1,0 +1,13 @@
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.exe
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.deps.json
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.runtimeconfig.json
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.runtimeconfig.dev.json
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.dll
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.pdb
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.csprojAssemblyReference.cache
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.AssemblyInfoInputs.cache
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.AssemblyInfo.cs
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.csproj.CoreCompileInputs.cache
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.dll
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.pdb
+C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.genruntimeconfig.cache
