@@ -1,6 +1,6 @@
 ﻿namespace PlayGround
 {
-    public class Car : ICar
+    public interface ICar
     {
         public int Id { get; set; }
 

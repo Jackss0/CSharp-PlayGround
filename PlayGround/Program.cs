@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Sockets;
 
 namespace PlayGround
 {
@@ -15,6 +14,8 @@ namespace PlayGround
                 new Car{Name = "Ferrari F1", Stock = 2},
                 new Car{Name = "Bugatti Chiron", Stock = 1},
             };
+
+            var carHandler = new CarHandler();
 
             CarHandler.CarPurchased += CarHandler.OnCarPurchased;
 
@@ -30,7 +31,10 @@ namespace PlayGround
             var input = Console.ReadLine();
 
             if(!string.IsNullOrWhiteSpace(input))
-                CarHandler.BuyCar(input);
+                carHandler.BuyCar(input);
+
+            var anotherCarHandler = new AnotherCarHandler();
+            anotherCarHandler.BuyCar(input);
         }
     }
 }

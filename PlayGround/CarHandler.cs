@@ -2,13 +2,13 @@
 
 namespace PlayGround
 {
-    public static class CarHandler
+    public class CarHandler : InitialCarClass
     {   
         public delegate void CarPurchasedDelegate(object sender, EventArgs args);
 
         public static event CarPurchasedDelegate CarPurchased;
 
-        public static void BuyCar(string carName)
+        public override void BuyCar(string carName)
         {
             Console.WriteLine("Updating inventory...");
 
