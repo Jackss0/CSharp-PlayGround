@@ -3,7 +3,7 @@ using Xunit;
 
 namespace PlayGound.Tests
 {
-    public class UnitTest1
+    public class MemberTests
     {
         [Fact]
         public void String_ShouldBeInmutable()
