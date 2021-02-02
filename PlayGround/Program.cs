@@ -12,15 +12,15 @@ namespace PlayGround
             {
                 new Car{Name = "Toyota Grand one", Stock = 4},
                 new Car{Name = "Ferrari F1", Stock = 2},
-                new Car{Name = "Bugatti Chiron", Stock = 1},
+                new Car{Name = "Bugatti Chiron", Stock = 1}
             };
 
             var carHandler = new CarHandler();
-
             CarHandler.CarPurchased += CarHandler.OnCarPurchased;
 
             var availableCars = cars.Select(car => string.Concat(car.Name, $"({car.Stock})"));
 
+            Console.WriteLine("Available cars:");
             foreach (var car in availableCars)
             {
                 Console.WriteLine(car);

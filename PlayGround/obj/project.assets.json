@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\jtueros\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jtueros\\source\\repos\\PlayGround\\PlayGround\\PlayGround.csproj",
+      "projectUniqueName": "E:\\repos\\CSharp-PlayGround\\PlayGround\\PlayGround.csproj",
       "projectName": "PlayGround",
-      "projectPath": "C:\\Users\\jtueros\\source\\repos\\PlayGround\\PlayGround\\PlayGround.csproj",
-      "packagesPath": "C:\\Users\\jtueros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jtueros\\source\\repos\\PlayGround\\PlayGround\\obj\\",
+      "projectPath": "E:\\repos\\CSharp-PlayGround\\PlayGround\\PlayGround.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "E:\\repos\\CSharp-PlayGround\\PlayGround\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jtueros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

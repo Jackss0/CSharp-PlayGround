@@ -11,3 +11,16 @@ C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\Play
 C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.dll
 C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.pdb
 C:\Users\jtueros\source\repos\PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.genruntimeconfig.cache
+E:\repos\CSharp-PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.exe
+E:\repos\CSharp-PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.deps.json
+E:\repos\CSharp-PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.runtimeconfig.json
+E:\repos\CSharp-PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.runtimeconfig.dev.json
+E:\repos\CSharp-PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.dll
+E:\repos\CSharp-PlayGround\PlayGround\bin\Debug\netcoreapp3.1\PlayGround.pdb
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.csprojAssemblyReference.cache
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.AssemblyInfoInputs.cache
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.AssemblyInfo.cs
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.csproj.CoreCompileInputs.cache
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.dll
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.pdb
+E:\repos\CSharp-PlayGround\PlayGround\obj\Debug\netcoreapp3.1\PlayGround.genruntimeconfig.cache
