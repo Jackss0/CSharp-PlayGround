@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -10,19 +11,22 @@ namespace AsyncAwait
         {
             var sw = new Stopwatch();
             sw.Start();
-            Task2();
+
+            var task = await Task.Run(() => { return new Random().Next().ToString(); });
+
+            Task1();
 
             Task2();
 
-            System.Console.WriteLine(sw.ElapsedMilliseconds);
+            Console.WriteLine(sw.ElapsedMilliseconds);
 
-            var responseTask = Task3(word);
+            var responseTask = Task3(task);
 
             var response = await responseTask;
 
-            System.Console.WriteLine(response);
+            Console.WriteLine(response);
 
-            System.Console.WriteLine(sw.ElapsedMilliseconds);
+            Console.WriteLine(sw.ElapsedMilliseconds);
 
             sw.Stop();
 

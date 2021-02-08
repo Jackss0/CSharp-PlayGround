@@ -8,7 +8,7 @@
 
             System.Console.WriteLine("Writing something at the start");
 
-            asyncClass.Handle("XD").Wait();
+            asyncClass.Handle("xd").Wait();
 
             System.Console.WriteLine("Writing something before finish");
         }
