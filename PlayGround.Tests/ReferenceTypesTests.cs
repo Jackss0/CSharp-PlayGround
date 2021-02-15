@@ -30,6 +30,20 @@ namespace PlayGround.Tests
         }
 
         [Fact]
+        public void DictionariesAreReferenceTypes()
+        {
+            var collection = new Dictionary<string, string>();
+            collection.Add("A", "Letter A");
+
+            var similarCollection = new Dictionary<string, string>();
+            similarCollection.Add("A", "Letter A");
+
+            collection = new Dictionary<string, string>();
+
+            Assert.False(collection == similarCollection);
+        }
+
+        [Fact]
         public void ComparingDifferentCollections()
         {
             var list = new List<int> { 3, 4, 5 };
@@ -63,7 +77,7 @@ namespace PlayGround.Tests
         [Fact]
         public void ClassesAreReferenceTypes()
         {
-            var exampleClass = new ExampleClass{Name = "Test"};
+            var exampleClass = new ExampleClass { Name = "Test" };
 
             WipeClass(exampleClass);
 
