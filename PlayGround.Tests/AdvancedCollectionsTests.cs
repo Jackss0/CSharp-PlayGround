@@ -44,5 +44,20 @@ namespace PlayGround.Tests
             Assert.Equal(3, stack.Count);
             Assert.Equal("c", topElement);
         }
+
+        [Fact]
+        public void Queues() 
+        {
+            var queue = new Queue<(string ticketNumber, string personName)>();
+
+            queue.Enqueue(("ticket1", "Pepe"));
+            queue.Enqueue(("ticket2", "Carlitos"));
+            queue.Dequeue();
+
+            queue.TryPeek(out var ticketInfo);
+
+            Assert.Single(queue);
+            Assert.Equal("Carlitos", ticketInfo.personName);
+        }
     }
 }
